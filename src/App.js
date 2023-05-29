@@ -53,7 +53,7 @@ class App extends React.Component {
         <header className="App-header">
           {locked === "locked" && (
             <div onClick={this.checkout} style={{ cursor: "pointer" }}>
-              Unlock me!{" "}
+              汝、鍵を持て、扉を解放せん{" "}
               <span aria-label="locked" role="img">
                 🔒
               </span>
