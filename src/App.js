@@ -1,5 +1,6 @@
 import React from "react"
 import "./App.css"
+import Content from "./Contents.js"
 
 class App extends React.Component {
   constructor(props) {
@@ -58,14 +59,7 @@ class App extends React.Component {
               </span>
             </div>
           )}
-          {locked === "unlocked" && (
-            <div>
-              Unlocked!{" "}
-              <span aria-label="unlocked" role="img">
-                🗝
-              </span>
-            </div>
-          )}
+          {locked === "unlocked" && <Content />}
         </header>
       </div>
     )
